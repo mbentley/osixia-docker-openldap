@@ -1,6 +1,6 @@
-# Use osixia/light-baseimage
-# sources: https://github.com/osixia/docker-light-baseimage
-FROM osixia/light-baseimage:1.3.2
+# Use mbentley/light-baseimage
+# sources: https://github.com/mbentley/docker-light-baseimage (fork of https://github.com/osixia/docker-light-baseimage)
+FROM mbentley/openldap:base
 
 ARG OPENLDAP_PACKAGE_VERSION=2.4.57
 
