@@ -1,6 +1,6 @@
 # Uses mbentley/light-baseimage
 # sources is a regularly built image from https://github.com/osixia/docker-light-baseimage
-FROM mbentley/openldap:base
+FROM mbentley/openldap:legacy-base
 
 ARG OPENLDAP_PACKAGE_VERSION=2.4.57
 
